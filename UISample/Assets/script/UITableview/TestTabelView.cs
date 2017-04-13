@@ -13,8 +13,8 @@ public class TestTabelView : MonoBehaviour {
         data.Add(4, "444");
         data.Add(5, "555");
         data.Add(6, "666");
-        data.Add(7, "666");
-        data.Add(8, "666");
+        data.Add(7, "777");
+        data.Add(8, "888");
 
         tb.UpdateItems(data);
 	}

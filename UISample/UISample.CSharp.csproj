@@ -83,6 +83,7 @@
     <Compile Include="Assets\Scripts\ScrollDetailTexture.cs" />
     <Compile Include="Assets\Scripts\ShowSliderValue.cs" />
     <Compile Include="Assets\Scripts\TiltWindow.cs" />
+    <Compile Include="Assets\script\UITableview\TableView.cs" />
     <Compile Include="Assets\script\UITableview\TestTabelView.cs" />
     <Compile Include="Assets\script\UITableview\UISuperTableCell.cs" />
     <Compile Include="Assets\script\UITableview\UITableView.cs" />
