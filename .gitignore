@@ -48,3 +48,5 @@ Temporary Items
 
 UISample/Temp/*
 UISample/Library/*
+UISample.CSharp.csproj
+UISample.sln
