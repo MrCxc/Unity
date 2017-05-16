@@ -16,6 +16,8 @@ public class DoTweenTest : MonoBehaviour {
     public GameObject cubeObj;
     */
 
+    public GameObject cubeObj2;
+
     public Text m_text;
     public Camera m_camera;
 
@@ -23,7 +25,7 @@ public class DoTweenTest : MonoBehaviour {
 
 	void Start () {
         // Lambda 
-
+        
         /*
         DOTween.To(()=> vec3, x=> vec3 = x, new Vector3(10f, 10f, 10f), 3f);
         DOTween.To(()=> fValue, x=> fValue = x, 10f, 3f);
@@ -66,6 +68,9 @@ public class DoTweenTest : MonoBehaviour {
         //StartCoroutine(SomeCoroutine());
 
         mySequence.Play();
+
+        DOTweenAnimation tweenAni = cubeObj2.transform.GetComponent<DOTweenAnimation>();
+        tweenAni.DOPlay();
 	}
 	
 	void Update () {
